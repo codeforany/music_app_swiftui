@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "m_hidden_folder.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
