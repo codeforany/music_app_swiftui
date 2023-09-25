@@ -11,7 +11,12 @@ import SwiftUI
 struct music_app_swiftuiApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            
+            NavigationView {
+                MainTabView()
+            }
+            .navigationViewStyle(.stack)
+            
         }
     }
 }

@@ -7,14 +7,9 @@
 
 import SwiftUI
 
-struct MainViewModel: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-    }
-}
-
-struct MainViewModel_Previews: PreviewProvider {
-    static var previews: some View {
-        MainViewModel()
-    }
+class MainViewModel: ObservableObject {
+    static var share : MainViewModel = MainViewModel()
+    
+    @Published var selectTab: Int = 0
+    @Published var isShowMenu: Bool = false
 }

@@ -8,8 +8,23 @@
 import SwiftUI
 
 struct ScrollTabButton: View {
+    
+    var title: String = "Title"
+    var width: Double = 70
+    var isSelect: Bool = true
+    var didTap: (()->())?
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Button {
+            didTap?()
+        } label: {
+            Text(title)
+                .font(.customfont(.medium, fontSize: 15))
+                .foregroundColor(isSelect ? .focus : .primaryText28 )
+            
+        }
+        .frame(width: width)
+
     }
 }
 

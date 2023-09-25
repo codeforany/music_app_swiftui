@@ -1,0 +1,50 @@
+{
+  "pins" : [
+    {
+      "identity" : "circularslider",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/terlan98/CircularSlider",
+      "state" : {
+        "revision" : "6112f54dd7fe756a4549865b66c697eab88ff9fd",
+        "version" : "1.0.3"
+      }
+    },
+    {
+      "identity" : "rxmusicplayer",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/yoheimuta/RxMusicPlayer",
+      "state" : {
+        "revision" : "27b3c6a6f6f2c0e65be5df40eeab5e462ed0190f",
+        "version" : "2.3.3"
+      }
+    },
+    {
+      "identity" : "rxswift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/ReactiveX/RxSwift",
+      "state" : {
+        "revision" : "9dcaa4b333db437b0fbfaf453fad29069044a8b4",
+        "version" : "6.6.0"
+      }
+    },
+    {
+      "identity" : "sdwebimage",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/SDWebImage/SDWebImage.git",
+      "state" : {
+        "revision" : "36e484b317522667a4b2de9b50daaa01dfa30809",
+        "version" : "5.18.0"
+      }
+    },
+    {
+      "identity" : "sdwebimageswiftui",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/SDWebImage/SDWebImageSwiftUI.git",
+      "state" : {
+        "revision" : "e837c37d45449fbd3b4745c10c5b5274e73edead",
+        "version" : "2.2.3"
+      }
+    }
+  ],
+  "version" : 2
+}
