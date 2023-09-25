@@ -19,6 +19,7 @@
 		CB3BFE892A98D64400FB1200 /* GenreCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3BFE882A98D64400FB1200 /* GenreCell.swift */; };
 		CB45CBB62A944E8F0092BE86 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB45CBB52A944E8F0092BE86 /* HomeView.swift */; };
 		CB45CBB82A94551C0092BE86 /* ViewAllSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB45CBB72A94551C0092BE86 /* ViewAllSection.swift */; };
+		CB63DB4D2AC1266400F02D2A /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = CB63DB4C2AC1266400F02D2A /* README.md */; };
 		CB6C8BFF2A9845720008EAA3 /* PlaylistsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6C8BFE2A9845720008EAA3 /* PlaylistsView.swift */; };
 		CB6C8C012A98474F0008EAA3 /* PlaylistSongCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6C8C002A98474F0008EAA3 /* PlaylistSongCell.swift */; };
 		CB6C8C032A984A700008EAA3 /* MyPlaylistCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6C8C022A984A700008EAA3 /* MyPlaylistCell.swift */; };
@@ -67,6 +68,7 @@
 		CB3BFE882A98D64400FB1200 /* GenreCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenreCell.swift; sourceTree = "<group>"; };
 		CB45CBB52A944E8F0092BE86 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		CB45CBB72A94551C0092BE86 /* ViewAllSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewAllSection.swift; sourceTree = "<group>"; };
+		CB63DB4C2AC1266400F02D2A /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 		CB6C8BFE2A9845720008EAA3 /* PlaylistsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistsView.swift; sourceTree = "<group>"; };
 		CB6C8C002A98474F0008EAA3 /* PlaylistSongCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistSongCell.swift; sourceTree = "<group>"; };
 		CB6C8C022A984A700008EAA3 /* MyPlaylistCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPlaylistCell.swift; sourceTree = "<group>"; };
@@ -234,6 +236,7 @@
 				CBE162B72A93113E0022684B /* Fonts */,
 				CBEFA01B2A930F01005CAB42 /* Preview Content */,
 				CBE162C22A9316820022684B /* Launch Screen.storyboard */,
+				CB63DB4C2AC1266400F02D2A /* README.md */,
 			);
 			path = music_app_swiftui;
 			sourceTree = "<group>";
@@ -351,6 +354,7 @@
 				CBE162BD2A93113E0022684B /* CircularStd-Black.otf in Resources */,
 				CBEFA01A2A930F01005CAB42 /* Assets.xcassets in Resources */,
 				CBE162BF2A93113E0022684B /* CircularStd-Medium.otf in Resources */,
+				CB63DB4D2AC1266400F02D2A /* README.md in Resources */,
 				CBE162C32A9316820022684B /* Launch Screen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
